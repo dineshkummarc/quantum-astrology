@@ -3,7 +3,7 @@
         'name' => 'quantum-minds/astrology-app',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '103e869f7a4782aeb06e79b81c5217fe284f267b',
+        'reference' => '380bf66901c9bb1d2ea987da6513287999760c7f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -217,7 +217,7 @@
         'quantum-minds/astrology-app' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '103e869f7a4782aeb06e79b81c5217fe284f267b',
+            'reference' => '380bf66901c9bb1d2ea987da6513287999760c7f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
