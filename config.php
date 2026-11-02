@@ -33,7 +33,7 @@ define('APP_DEBUG', filter_var(env('APP_DEBUG', false), FILTER_VALIDATE_BOOLEAN)
 define('APP_NAME', (string) env('APP_NAME', 'Quantum Astrology'));
 define('APP_URL', (string) env('APP_URL', 'http://localhost'));
 define('APP_TIMEZONE', (string) env('APP_TIMEZONE', 'UTC'));
-define('GITHUB_ISSUES_URL', (string) env('GITHUB_ISSUES_URL', 'https://github.com/meistro57/quantum-astrology/issues'));
+define('GITHUB_ISSUES_URL', (string) env('GITHUB_ISSUES_URL', 'https://github.com/dineshkummarc/quantum-astrology/issues'));
 
 // Paths
 define('ROOT_PATH', __DIR__);
@@ -41,7 +41,7 @@ define('STORAGE_PATH', ROOT_PATH . '/storage');
 define('LOGS_PATH', STORAGE_PATH . '/logs');
 
 // Database configuration (supports SQLite and MySQL/MariaDB)
-define('DB_DRIVER', strtolower((string) env('DB_DRIVER', 'sqlite')));
+define('DB_DRIVER', strtolower((string) env('DB_DRIVER', 'mysql')));
 define('DB_HOST', (string) env('DB_HOST', '127.0.0.1'));
 define('DB_PORT', (int) env('DB_PORT', 3306));
 define('DB_NAME', (string) env('DB_NAME', 'quantum_astrology'));
